@@ -57,7 +57,7 @@
 	#Points for zombie villager exorcism [0..50|default:3]
 	#Range: 0 ~ 50
 	points_exorcism_zombie_villager = 3
-	#Points for killing a villager (or minecolonies citizen) [-50..0|default:-3]
+	#Points for killing a villager [-50..0|default:-3]
 	#Range: -50 ~ 0
 	points_kill_villager = -3
 	#Points for killing a raider [0..20|default:1]
@@ -190,23 +190,8 @@
 	#Log when players are automatically back up [false/true|default:false]
 	log_auto_backup = false
 
-#Allows to change the chance to drop some items
+#Options related to looted items
 [loot]
-	#Chance on 1000 to receive a voodoo poppet on undead boss [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_voodoo_poppet_on_boss = 100
-	#Chance on 1000 to receive a random scroll on undead boss [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_random_scroll_on_boss = 100
-	#Chance on 1000 to receive a familiar receptacle on undead boss [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_familiar_receptacle_on_boss = 100
-	#Chance on 1000 to receive a Soul Receptacle on undead boss [0..1000|default:50]
-	#Range: 0 ~ 1000
-	chance_soul_receptacle_on_boss = 50
-	#Chance on 1000 for undead mobs to drop Grave's Dust [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_grave_dust = 100
 	#Maximum xp rewarded with a Lost Page of Erdös [1..200000|default:2000]
 	#Range: 1 ~ 200000
 	max_xp_lost_page = 2000
@@ -223,4 +208,6 @@
 	keep_cosmetic_armor = true
 	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
 	preserve_effects_on_return_end_conquered = true
+	#Allows to provide a magic book slot in Curio mod used to enchant with a soul [false/true|default:true]
+	curio_magic_book_support = true
 

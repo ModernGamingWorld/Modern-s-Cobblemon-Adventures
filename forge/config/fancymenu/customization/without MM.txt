@@ -1,0 +1,255 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = panorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-right
+  x = -324
+  action = movebutton
+  y = -52
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 200
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bhmultih.png
+  backgroundnormal = config\fancymenu\assets\bhmulti.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-right
+  x = -324
+  action = movebutton
+  y = 28
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 200
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bhsettingh.png
+  backgroundnormal = config\fancymenu\assets\bhsetting.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-right
+  x = -324
+  action = movebutton
+  y = 71
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 200
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bhquith.png
+  backgroundnormal = config\fancymenu\assets\bhquit.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-right
+  x = -324
+  action = movebutton
+  y = -92
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 200
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bhsingleh.png
+  backgroundnormal = config\fancymenu\assets\bhsingle.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = bb12c3b4-1407-4ba6-9ae7-e5b03e11ac731667413105962
+  y = 498
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 530
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = b2ff5803-b9d0-4818-b505-4661d4fe0c071667413105967
+  y = 218
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 290
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 613f9ce1-53ab-4ced-ba1e-98c9b37fd7d91667413105967
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 7dce56f3-289b-4f2e-a778-18efefd28c451667413105967
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 506
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 53692ec2-8472-4a60-9f5f-1a5e49aec9e71681442450202
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 1051
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = efcd4138-135a-4200-84c3-9f441b5ef9311681442450202
+  y = 520
+  height = 9
+}
+
+customization {
+  path = config/fancymenu/assets/bhbg.png
+  orientation = top-left
+  x = 0
+  width = %guiwidth%
+  action = addtexture
+  actionid = ef6f1a20-6a39-4e6c-8cd7-0b85cf2676361680836225240
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = openlink;www.bisecthosting.com/BedrockLegends%btnaction_splitter_fm%
+  backgroundhovered = config\fancymenu\assets\bhrenth.png
+  label = 
+  loopbackgroundanimations = true
+  x = -324
+  width = 200
+  action = addbutton
+  actionid = ac7affcc-61ac-43d4-aac2-eea05603cd771667413137994
+  y = -12
+  backgroundnormal = config\fancymenu\assets\bhrent.png
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+

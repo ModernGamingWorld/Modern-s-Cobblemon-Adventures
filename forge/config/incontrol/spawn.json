@@ -2,6 +2,20 @@
   {
     "dimension": "minecraft:overworld",
     "mob": [
+      "minecraft:husk"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:drowned"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
       "minecraft:creeper"
     ],
     "result": "deny"
