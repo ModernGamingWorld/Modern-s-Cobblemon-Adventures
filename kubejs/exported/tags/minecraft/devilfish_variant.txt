@@ -1,0 +1,8 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 4, 2023, 2:52:35 PM
+
+#fishofthieves:default_devilfish_spawns
+- fishofthieves:ashen (from fish_of_thieves-mc1.19.2-v2.2.4-forge.jar)
+- fishofthieves:seashell (from fish_of_thieves-mc1.19.2-v2.2.4-forge.jar)
+- fishofthieves:lava (from fish_of_thieves-mc1.19.2-v2.2.4-forge.jar)
+- fishofthieves:forsaken (from fish_of_thieves-mc1.19.2-v2.2.4-forge.jar)
+- fishofthieves:firelight (from fish_of_thieves-mc1.19.2-v2.2.4-forge.jar)
