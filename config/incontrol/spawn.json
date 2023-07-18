@@ -1,0 +1,128 @@
+[
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:husk"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:drowned"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:creeper"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:nether",
+    "mob": [
+      "minecraft:creeper"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:skeleton"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:nether",
+    "mob": [
+      "minecraft:skeleton"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:enderman"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:nether",
+    "mob": [
+      "minecraft:enderman"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:end",
+    "mob": [
+      "minecraft:enderman"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:spider"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:nether",
+    "mob": [
+      "minecraft:spider"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:zombie_villager"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:nether",
+    "mob": [
+      "minecraft:zombie_villager"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:nether",
+    "mob": [
+      "minecraft:cave_spider"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:cave_spider"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:nether",
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:nether",
+    "mob": [
+      "minecraft:blaze"
+    ],
+    "result": "deny"
+  }
+]

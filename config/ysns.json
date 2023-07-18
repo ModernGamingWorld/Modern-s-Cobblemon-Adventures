@@ -1,0 +1,14 @@
+{
+  "blacklisted_entities": [
+    "minecraft:husk",
+    "minecraft:drowned",
+    "minecraft:creeper"
+    "minecraft:skeleton",
+    "minecraft:enderman",
+    "minecraft:spider",
+    "minecraft:zombie_villager",
+    "minecraft:cave_spider",
+    "minecraft:zombie",
+    "minecraft:blaze"
+  ]
+}
